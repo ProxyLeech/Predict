@@ -3,6 +3,8 @@ visualize results for test image
 """
 from numpy import asarray
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from PIL import Image
 import torch
